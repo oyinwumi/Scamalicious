@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AppUses = () => {
   return (
-    <div className="lg:px-20 px-8 py-8 text-[#252528] ">
+    <div className="lg:px-20 px-8 pt-8 py-20 text-[#252528] bg-[#EDEAEA]">
         <h3 className="lg:text-center font-font2 lg:text-3xl text-2xl font-normal w-full ">What Our Mobile Application Is For?</h3>
         <div className="flex lg:flex-row flex-col  w-full mt-10">
            <div className="lg:w-[60%] w-full ">
