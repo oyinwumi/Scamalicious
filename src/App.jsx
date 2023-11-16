@@ -7,7 +7,7 @@ import Download from './pages/Download';
 function App() {
 
   return (
-  <div className="w-full overflow-x-hidden ">
+  <div className="w-full overflow-x-hidden  ">
     <Router>
       <Routes>
         <Route path='/' element={<LandingPage/>}/>
