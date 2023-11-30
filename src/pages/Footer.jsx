@@ -22,6 +22,7 @@ const Footer = () => {
             <a href=""><img src={Lin} alt="" /></a>
         </div>
       </div>
+      <Link to="/terms" className="underline" >Terms and Conditions</Link>
       <div className="lg:mt-0 mt-5 lg:text-[16px] text-sm">
         <Link to="/download" className="underline" >Click here to download</Link>
       </div>

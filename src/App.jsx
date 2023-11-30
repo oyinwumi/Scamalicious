@@ -1,6 +1,7 @@
 import { BrowserRouter as Router , Routes , Route} from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Download from './pages/Download';
+import Terms from './pages/Terms';
 
 
 
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/download' element={<Download/>}/>
-
+        <Route path='/terms' element={<Terms/>}/>
       </Routes>
     </Router>
 
