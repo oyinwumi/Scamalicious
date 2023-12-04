@@ -25,7 +25,7 @@ const Download = () => {
         </div>
         <div className="relative">
         <a  href="*" className=" "> <button className="bg-yellow relative text-black shadow-lg shadow-[#4c4848]  w-[355px] h-[60px]  rounded-lg text-[20px] font-semibold font-font1 px-5">Download For Iphone </button></a>
-          <img src={Iphone} alt="" className="absolute absolute lg:top-4 top-4 lg:left-[42%] left-16" />
+          <img src={Iphone} alt="" className="absolute lg:top-4 top-4 lg:left-[42%] left-16" />
         </div>
 
        </div>

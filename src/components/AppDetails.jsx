@@ -58,7 +58,7 @@ By lending your voice, you’ll share stories in the APP that ignite a beacon of
 </p>
           </div> 
         </div>
-        <div className="w-full lg:mx-[40%] mx-[20%]">
+        <div className="w-full lg:mx-[45%] mx-[25%]">
        <Link to='/download'>  <button className= "bg-yellow text-center shadow-md shadow-[#343131] text-black w-[224px] h-[56px] border-yellow rounded-lg text-[22px] font-semibold font-font1 items-center  mt-10">Download Now </button></Link>
         </div>
     </div>

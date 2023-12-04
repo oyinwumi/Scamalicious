@@ -21,9 +21,14 @@ const Footer = () => {
             <a href=""><img src={Ig} alt="" /></a>
             <a href=""><img src={Lin} alt="" /></a>
         </div>
+        <div className="mt-8 items-center justify-center text-sm  flex gap-5">
+     <Link to="/terms">Terms and conditions</Link>
+     <Link to="/privacy">Privacy Policy</Link>
+     <Link to="/disclaimer">Disclaimer</Link>
       </div>
-      <Link to="/terms" className="underline" >Terms and Conditions</Link>
-      <div className="lg:mt-0 mt-5 lg:text-[16px] text-sm">
+      </div>
+  
+      <div className="lg:mt-0 mt-4 lg:text-[16px] text-sm">
         <Link to="/download" className="underline" >Click here to download</Link>
       </div>
     </div>
