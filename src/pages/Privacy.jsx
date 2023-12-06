@@ -14,8 +14,8 @@ const Privacy = () => {
     </div>
 
     </div>
-      <div  className="lg:px-20 px-8 pt-8 py-20 text-[#252528] bg-[#FFF] tracking-wider">
-            <h2 className="font-font2 font-bold lg:text-[50px] text-2xl py-20 text-center">Privacy Policy</h2>
+      <div  className="lg:px-20 px-8 pt-10 text-[#252528] bg-[#FFF] tracking-wider">
+            <h2 className="font-font2 font-bold lg:text-[50px] text-2xl  text-center">Privacy Policy</h2>
       <div className="leading-[50px]">
   
 
@@ -213,7 +213,7 @@ unenforceable, the remainder of the provisions shall remain in full force and ef
         <h3 className="text-3xl font-font2 font-bold  my-8">27. User Responsibility to Review</h3>
         <p className=" text-2xl font-font1 mb-1">Users are responsible for regularly reviewing this Privacy Policy for any updates or changes.</p>
       </div>
-      <div>
+      <div className="pb-10">
         <h3 className="text-3xl font-font2 font-bold  my-8">28. Consent</h3>
         <p className=" text-2xl font-font1 mb-1">By using SCAMalicious, users signify their acceptance of this Privacy Policy and agree to its
 terms and conditions.</p>

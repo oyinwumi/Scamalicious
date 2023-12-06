@@ -14,8 +14,8 @@ const Terms = () => {
     </div>
 
     </div>
-      <div  className="lg:px-20 px-8 pt-8 py-20 text-[#252528] bg-[#FFF] tracking-wider">
-            <h2 className="font-font2 font-bold lg:text-[50px] text-2xl py-20 text-center">Terms and Conditions</h2>
+      <div  className="lg:px-20 px-8  text-[#252528] bg-[#FFF] tracking-wider">
+            <h2 className="font-font2 font-bold lg:text-[50px] text-2xl pt-10 text-center">Terms and Conditions</h2>
       <div className="leading-[50px]">
       <div>
         <h3 className="text-3xl font-font2 font-bold  my-8">1. Introduction</h3>
@@ -175,7 +175,7 @@ learning, sharing experiences, and supporting one another in the fight against s
 Together, we empower ourselves to be better, more informed, and more secure.
 Users are welcome to share their scam or fraud experiences in text format only on this page.</p>
       </div>
-      <div>
+      <div className="pb-10">
       <h3 className="text-3xl font-font2 font-bold  my-8">Terms & Conditions and Disclaimer:</h3>
       <p className=" text-2xl font-font1">The following disclaimer is provided for the purpose of clarifying the guidelines and
 limitations regarding the sharing of scam/fraud stories on this platform:</p>

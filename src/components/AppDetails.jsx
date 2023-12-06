@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AppDetails = () => {
   return (
-    <div className="bg-[#FFF]   relative lg:px-20 px-8 py-14 w-full">
+    <div className="bg-[#FFF]   relative lg:px-20 px-8 lg:py-14 py-0 w-full">
         <div className=" text-center "> 
            <h2 className="text-black font-font2 font-normal lg:text-3xl text-2xl">Powerful Scam Detector Application</h2>
            <p className="text-black opacity-80 font-font1 md:text-xl text-lg font-normal mx-auto lg:w-[930px] w-full mt-5">Our cutting-edge scam detection app empowers users to swiftly identify and report fraudulent activities, offering a robust shield against online scams. With real-time alerts and user-friendly features, its your trusted ally in the fight against deception.</p>
@@ -58,7 +58,7 @@ By lending your voice, you’ll share stories in the APP that ignite a beacon of
 </p>
           </div> 
         </div>
-        <div className="w-full lg:mx-[45%] mx-[25%]">
+        <div className="flex justify-center w-full ">
        <Link to='/download'>  <button className= "bg-yellow text-center shadow-md shadow-[#343131] text-black w-[224px] h-[56px] border-yellow rounded-lg text-[22px] font-semibold font-font1 items-center  mt-10">Download Now </button></Link>
         </div>
     </div>
