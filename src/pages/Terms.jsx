@@ -1,6 +1,6 @@
 import Footer from "./Footer"
 import Nav from "./Nav"
-import Bg from "../assets/scamBg.png";
+import Bg from "../assets/scamBg.jpeg";
 
 
 const Terms = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Rectangle129 from '../assets/rectangle129.png';
+import Rectangle129 from '../assets/rectangle129.jpeg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -54,9 +54,10 @@ const Contact = () => {
     <div className="lg:px-20 px-8 lg:py-14 py-8 text-[#252528] bg-[#FFF]">
       <div className="flex lg:flex-row flex-col w-full">
         <div className="lg:w-[60%] w-full lg:order-1 order-2 flex flex-col lg:items-start items-center">
-          <h3 className="lg:text-start font-font2 lg:text-3xl text-2xl font-normal w-full mb-4 font-semibold">Get In Touch</h3>
-          <p className="lg:text-xl text-[16px] font-font1 font-normal w-full">
-            Our sales and support teams are more than happy to answer your questions and discuss our products and integrations. Send us a message, and we will get back to you as soon as possible.
+          <h3 className="lg:text-start font-font2 lg:text-3xl text-2xl font-normal w-full mb-4 font-semibold">Got a Question? Get in Touch—Scammers Hate It When We Team Up!</h3>
+          <p className="lg:text-l text-[16px] font-font1 font-normal w-full">
+          Whether you've got a query or just want to say hello, we’re all ears. We’re here to help and answer any questions you might have. If you don't get a reply immediately, we might be busy combating scammers, but we promise we'll get back to you as soon as possible. 
+
           </p>
           <div className='mt-6 w-full font-font1 font-normal'>
             <form onSubmit={handleSubmit}>
@@ -65,7 +66,7 @@ const Contact = () => {
                 name="name"
                 placeholder='Name'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[40px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[30px]'
                 value={formData.name}
                 onChange={handleChange}
               /><br />
@@ -74,31 +75,24 @@ const Contact = () => {
                 name="email"
                 placeholder='Email'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[40px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[30px]'
                 value={formData.email}
                 onChange={handleChange}
               /><br />
-              <input
-                type="text"
-                name="phone"
-                placeholder='Phone Number'
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[40px]'
-                value={formData.phone}
-                onChange={handleChange}
-              /><br />
+             
               <textarea
                 name="message"
                 placeholder='Message'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[90px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[70px]'
                 value={formData.message}
                 onChange={handleChange}
               />
-              <button className="bg-yellow text-center text-[#202020] w-full h-[40px] border-yellow rounded-lg text-[22px] font-font1">SEND</button>
+              <button className="bg-yellow text-center text-[#202020] w-full h-[35px] border-yellow rounded-lg text-[16px] font-bold font-font1">SEND</button>
             </form>
           </div>
         </div>
-        <img src={Rectangle129} alt="" className="lg:w-[40%] w-full h-[430px] lg:mb-0 mb-6 lg:ml-14 ml-0 object-cover lg:order-2 order-1" />
+        <img src={Rectangle129} alt="" className="lg:w-[40%] w-full h-full lg:mb-0 mb-6 lg:ml-14 ml-0 object-cover lg:order-2 order-1" />
       </div>
 
       {showModal && (

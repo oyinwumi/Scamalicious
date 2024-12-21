@@ -9,8 +9,8 @@ const LandingPage = () => {
   return (
     <div>
         <Hero/>
-        <AppDetails/>
         <AppUses/>
+        <AppDetails/>
         <QuickStep/>
          <Contact/>
         <Footer/>

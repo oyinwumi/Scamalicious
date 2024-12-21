@@ -1,17 +1,49 @@
 import Logo from "../assets/scamlogo.svg";
+import Fb from "../assets/facebook.svg";
+import Ig from "../assets/instagram.svg";
+import Lin from "../assets/linkedin.svg";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div className="items-center flex justify-between w-full">
-     <Link to="/"><img src={Logo} alt=""  className=" relative md:w-[80px] md:h-[80px] w-[60px] h-[60px]"/></Link>
-      <div className="flex gap-10 items-center">
-        <header className="text-white lg:text-[25px] text-[16px]">SCAMalicious</header>
-       <Link to="/download" className=""><button className= " relative text-sm bg-yellow text-center text-black md:w-[248px] w-[120px] lg:h-[56px] h-[40px] border-yellow rounded-lg md:text-[22px] font-semibold font-font1">Get The App Now</button>
+      <Link to="/">
+        <img
+          src={Logo}
+          alt="SCAMalicious Logo"
+          className="relative md:w-[80px] md:h-[80px] w-[60px] h-[60px]"
+        />
       </Link>
+      <div className="flex gap-10 items-center">
+        <header className="text-white lg:text-[25px] text-[16px]">
+          SCAMalicious
+        </header>
+        <div className=" relative flex gap-7 items-center lg:mx-0 mx-auto justify-center">
+          <a
+            href="https://www.facebook.com/profile.php?id=61564431381719"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Fb} alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/scamalicious_app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Ig} alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/scamalicious/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Lin} alt="LinkedIn" />
+          </a>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

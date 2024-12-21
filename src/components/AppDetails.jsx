@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 
 const AppDetails = () => {
   return (
-    <div className="bg-[#FFF]   relative lg:px-20 px-8 lg:py-14 py-0 w-full">
+    <div className="bg-[#FFF]   relative lg:px-20 px-8 lg:py-7 py-0 w-full">
         <div className=" text-center "> 
            <h2 className="text-black font-font2 font-normal lg:text-3xl text-2xl">Powerful Scam Detector Application</h2>
-           <p className="text-black opacity-80 font-font1 md:text-xl text-lg font-normal mx-auto lg:w-[930px] w-full mt-5">Our cutting-edge scam detection app empowers users to swiftly identify and report fraudulent activities, offering a robust shield against online scams. With user-friendly features, its your trusted ally in the fight against deception.</p>
+           <p className="text-black opacity-80 font-font1 md:text-xl text-lg font-normal mx-auto lg:w-[930px] w-full mt-5">Stay one step ahead of scams with SCAMalicious—your trusted ally in the fight against deception. 
+           Our cutting-edge app empowers users to swiftly identify and report fraudulent activities with ease. Featuring ScamQ&A for instant risk assessment, SCAMalicious offers robust protection against scams. 
+           At SCAMalicious, we believe prevention is better than cure—protecting you before the threat even strikes.
+           </p>
         </div>
         <div className="w-full flex flex-wrap gap-5 mt-10 text-center ">
           <div className=" border bg-white  rounded-[40px] p-5 lg:w-[32%] w-full shadow-md shadow-[#4c4848]">
