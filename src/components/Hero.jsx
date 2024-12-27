@@ -20,7 +20,7 @@ const Hero = () => {
               <img src={Maskup} alt="" className=" w-[268px] items-center lg:absolute  relative lg:-top-2 top-0 lg:left-[200px] left-0 lg:origin-center lg:rotate-0  origin-center rotate-90" />
              </div>
              <div>
-              <div className="  lg:mt-20 mt-0  flex   lg:flex-row flex-col items-center text-[24px] gap-1"><span>High Rated Review</span></div>
+              <div className="  lg:mt-20 mt-0  flex   lg:flex-row flex-col items-center text-[24px] gap-1"><span></span></div>
               <p className="text-xl lg:mb-0 mb-10 ">(SCAMalicious)</p>
              </div>
           </div>

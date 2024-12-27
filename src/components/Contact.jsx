@@ -54,8 +54,8 @@ const Contact = () => {
     <div className="lg:px-20 px-8 lg:py-14 py-8 text-[#252528] bg-[#FFF]">
       <div className="flex lg:flex-row flex-col w-full">
         <div className="lg:w-[60%] w-full lg:order-1 order-2 flex flex-col lg:items-start items-center">
-          <h3 className="lg:text-start font-font2 lg:text-3xl text-2xl font-normal w-full mb-4 font-semibold">Got a Question? Get in Touch—Scammers Hate It When We Team Up!</h3>
-          <p className="lg:text-l text-[16px] font-font1 font-normal w-full">
+          <h3 className="lg:text-start font-font2 lg:text-3xl text-2xl  w-full mb-4 font-semibold">Got a Question? Get in Touch—Scammers Hate It When We Team Up!</h3>
+          <p className="lg:text-l text-[20px] font-font1 font-normal w-full">
           Whether you've got a query or just want to say hello, we’re all ears. We’re here to help and answer any questions you might have. If you don't get a reply immediately, we might be busy combating scammers, but we promise we'll get back to you as soon as possible. 
 
           </p>
@@ -66,7 +66,7 @@ const Contact = () => {
                 name="name"
                 placeholder='Name'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[30px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[35px]'
                 value={formData.name}
                 onChange={handleChange}
               /><br />
@@ -75,7 +75,7 @@ const Contact = () => {
                 name="email"
                 placeholder='Email'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[30px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[35px]'
                 value={formData.email}
                 onChange={handleChange}
               /><br />
@@ -84,7 +84,7 @@ const Contact = () => {
                 name="message"
                 placeholder='Message'
                 required
-                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[70px]'
+                className='mb-2 border rounded-lg border-black w-full capitalize outline-none px-2 h-[75px]'
                 value={formData.message}
                 onChange={handleChange}
               />
