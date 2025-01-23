@@ -57,7 +57,6 @@ const Contact = () => {
           <h3 className="lg:text-start font-font2 lg:text-3xl text-2xl  w-full mb-4 font-semibold">Got a Question? Get in Touch—Scammers Hate It When We Team Up!</h3>
           <p className="lg:text-l text-[20px] font-font1 font-normal w-full">
           Whether you've got a query or just want to say hello, we’re all ears. We’re here to help and answer any questions you might have. If you don't get a reply immediately, we might be busy combating scammers, but we promise we'll get back to you as soon as possible. 
-
           </p>
           <div className='mt-6 w-full font-font1 font-normal'>
             <form onSubmit={handleSubmit}>
@@ -88,11 +87,11 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
               />
-              <button className="bg-yellow text-center text-[#202020] w-full h-[35px] border-yellow rounded-lg text-[16px] font-bold font-font1">SEND</button>
+              <button className="bg-yellow text-center text-[#202020] w-full h-[35px] border-yellow rounded-lg text-[16px] font-bold font-font1">Contact Us</button>
             </form>
           </div>
         </div>
-        <img src={Rectangle129} alt="" className="lg:w-[40%] w-full h-full lg:mb-0 mb-6 lg:ml-14 ml-0 object-cover lg:order-2 order-1" />
+        <img src={Rectangle129} alt="" className="lg:w-[70%] w-full h-full lg:mb-0 mb-6 lg:ml-14 ml-0 object-cover lg:order-2 order-1" />
       </div>
 
       {showModal && (
