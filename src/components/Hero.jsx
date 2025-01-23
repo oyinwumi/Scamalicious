@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <div className="relative w-full h-full mb-10" >
         <img src={Bg} alt="" className=" border rounded-b-[100px] bg-black absolute w-full h-full object-cover mix-blend-overlay"/>
-        <div className="lg:pl-14 lg:pr-4 px-8 py-8">
+        <div className="lg:pl-14 lg:pr-14 px-8 py-8 ">
             <Nav/>
-            <div className="text-white relative lg:mt-6 mt-16">
-            <h1 className="lg:text-[40px] text-[40px]  font-font2 font-bold lg:w-[650px] w-full "><span className="uppercase">Stay ahead of scams from anywhere with</span> SCAMalicious</h1>
+            <div className="text-white relative lg:mt-6 mt-16 lg:py-20">
+            <h1 className="lg:text-[40px] text-[40px]  font-font2 font-bold lg:w-[750px] w-full "><span className="uppercase">Stay ahead of scams from anywhere with</span> SCAMalicious</h1>
             <p className="text-xl font-bold font-font1 lg:w-[623px] w-full tracking-widest mt-5">Don’t let scammers take advantage of you! Stay one step ahead with SCAMalicious, the essential mobile application designed to help you make informed decisions and protect yourself from fraud.</p>
             <div className="flex lg:flex-row flex-col  lg:gap-[190px] gap-6 items-center ">
              <div className="flex lg:flex-row flex-col items-center gap-0 relative">
